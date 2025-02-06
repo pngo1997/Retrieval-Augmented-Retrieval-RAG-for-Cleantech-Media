@@ -5,8 +5,6 @@ This project focuses on implementing a **Retrieval-Augmented Generation (RAG) sy
 
 The project builds upon the **"Cleantech RAG"** tutorial from the **Next-Gen Cleantech Solutions workshop** (SwissText2024). It incorporates **additional enhancements**, including alternative text splitters, embeddings, LLMs, and evaluation techniques.  
 
----
-
 ## 🚀 1️⃣ System Workflow  
 
 1️⃣ **Vector Database Creation**  
@@ -67,11 +65,6 @@ The project builds upon the **"Cleantech RAG"** tutorial from the **Next-Gen Cle
 2️⃣ **"bge-m3"**  
 3️⃣ **"gte"**  
 
-📌 **Research Questions Addressed**:  
-- How were these models trained?  
-- What are their embedding dimensions?  
-- Why were they chosen for this RAG pipeline?  
-
 ✅ **Analysis Performed**:  
 - **Embedding space distribution**  
 - **Similarity statistics**  
@@ -81,11 +74,9 @@ The project builds upon the **"Cleantech RAG"** tutorial from the **Next-Gen Cle
 ✅ **New Components Added**:  
 - **Alternative RAG prompts** for better chunk retrieval.  
 - **Different values for retrieved chunks (k = {1, 3, 5})**.  
-- **Additional LLMs** tested beyond OpenAI GPT-4.  
 
 ✅ **LLMs Used**:  
-1️⃣ **GPT-4 / GPT-4o (default OpenAI model in code)**  
-2️⃣ **Alternative LLMs** (smaller & larger models tested)  
+- **GPT-4-turbo**  
 
 ✅ **Evaluation Experiments**:  
 - Impact of chunk retrieval count (`k`) on results.  
